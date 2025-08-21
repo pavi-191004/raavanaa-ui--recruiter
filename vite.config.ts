@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     react(),
     federation({
-      name: "raavana-ui--recruiter",   
+      name: "raavana_ui_recruiter",   
       filename: "remoteEntry.js",      
       exposes: {
         './App': './src/App.tsx'       
